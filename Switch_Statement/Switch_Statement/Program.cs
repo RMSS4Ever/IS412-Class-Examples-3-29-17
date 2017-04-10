@@ -10,15 +10,15 @@ namespace Switch_Statement
     {
         static void Main(string[] args)
         {
-            const string myName = "Benjamin";
-            const string niceName = "Andrea";
-            const string sillyName = "Ploppy";
+            const string myName = "benjamin";
+            const string niceName = "andrea";
+            const string sillyName = "ploppy";
             string name;
 
             Console.WriteLine("What is your name?");
             name = Console.ReadLine();
 
-            switch (name.ToLower())
+            switch(name.ToLower())
             {
                 case myName:
                     Console.WriteLine("You have the same name as me!");
